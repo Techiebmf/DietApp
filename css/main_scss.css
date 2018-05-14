@@ -1,0 +1,133 @@
+*:after {
+  clear: both;
+  content: "";
+  display: block; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  min-height: 100%;
+  margin: 0;
+  color: #fff;
+  padding: 0; }
+
+body {
+  background-image: url("");
+  background-color: "";
+  color: #fff;
+  font-family: abc;
+  font-size: "";
+  font-weight: "";
+  line-height: 1.2;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+.page-center {
+  float: none;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0; }
+
+img {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto; }
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: ""; }
+
+a:hover, a:focus {
+  color: ""; }
+
+p {
+  margin: 0; }
+
+/* Lists */
+ul, ol {
+  margin: 0;
+  padding: 0; }
+
+ul.unstyled, ol.unstyled {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+/*********** Selection Styling *****************/
+::-moz-selection {
+  color: #fff;
+  background: #000;
+  text-shadow: none; }
+
+::selection {
+  color: #fff;
+  background: #000;
+  text-shadow: none; }
+
+.custom-header {
+  background-color: #000;
+  text-align: center;
+  height: 90px;
+  position: fixed;
+  z-index: 900;
+  width: 100%;
+  top: 0;
+  left: 0; }
+
+.cs-inner-header-wrapper .cs-left-header .menu-trigger {
+  height: 44px;
+  width: 50px;
+  position: absolute;
+  background-color: #eb413f;
+  background-image: url(../img/icon-menu-white.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  position: absolute;
+  left: 24px;
+  top: 22px; }
+.cs-inner-header-wrapper .cs-mid-header .cs-logo {
+  display: inline-block;
+  width: 100px;
+  height: 70px;
+  background-image: url(../img/logo_header.png);
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  margin-left: -38px;
+  background-size: 100%; }
+.cs-inner-header-wrapper .cs-right-header a {
+  text-decoration: none;
+  font-size: 12px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 27px;
+  float: right;
+  cursor: pointer;
+  color: #000;
+  font-weight: 600;
+  background-color: #fff;
+  padding: 0 8px;
+  margin-right: 5px;
+  right: 15px;
+  border-radius: 30px;
+  margin-top: 20px; }
+.cs-inner-header-wrapper .cs-right-header .login {
+  margin-right: 20px; }
+.cs-inner-header-wrapper .cs-right-header .signup {
+  background-color: red;
+  color: #fff; }
+
+/*# sourceMappingURL=main_scss.css.map */
